@@ -2,6 +2,8 @@
 ## for the Intext XK-300 CPU trainer
 This ROM should be installed in the user ROM socket U13 and will give you a 300 baud UART interface that you can use with a FTDI adapter or a MAX232 module with a real serial terminal.
 
+<img src="docs/xk-300.jpg" width="500">
+
 ### Prerequisites 
 * 2K ROM (2716) User ROM
 * 1K RAM (2x MCM2114) User RAM
@@ -120,3 +122,21 @@ DATA	FCB $0A, $0D
         FCC "HELLO WORLD" 
         FCB $04
 ```
+
+.s19
+```
+S119E000CEE008BDE80920F80A0D48454C4C4F20574F524C440453
+S9030000FC
+```
+
+### Quick demo
+<a href="https://youtube.com/shorts/u76gOr7PFnU">
+  <img src="https://img.youtube.com/vi/u76gOr7PFnU/hqdefault.jpg" width="350">
+</a>
+
+### Resources
+* [MOTOROLA 6809 / 6309, 6800 ASSEMBLY LANGUAGE PROGRAMMING](https://www.facebook.com/groups/1584107075216002/)
+* [Scan of User's Manual for Motorola MEK6802D5 Microcomputer Evaluation Board](https://archive.org/details/motorola-mek6802d5-microcomputer-evaluation-board-users-manual)
+* [My super minty Intext ICS/Elenco XK-300 M6800 trainer plus some extras](https://forum.vcfed.org/index.php?threads/my-super-minty-intext-ics-elenco-xk-300-m6800-trainer-plus-some-extras.1243333/)
+* [68Retro on GitHub](https://github.com/crsjones/68Retro)
+* [Some 6800 programs](https://www.waveguide.se/?article=some-6800-programs)
