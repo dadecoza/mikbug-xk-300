@@ -99,12 +99,12 @@ HELLO WORLD
 ### Handy sub-routines
 | Address | Description |
 |---|---|
-|E003| OUTEEE: Write the character in the `A` accumulator to the terminal display.
-|E006| INEEE: Wait for a single character from the terminal and store it in the `A` accumulator.
-|E009| PDATA1: Print data at the location stored in the `X` register and loop until $04 is reached.
-|E00C| OUTHR: Output HEX right BCD digit.
-|E00F| OUTHL: Output HEX left BCD digit.
-|E012| OUT2HS: Output 2 HEX digits.
+|E803| OUTEEE: Write the character in the `A` accumulator to the terminal display.
+|E806| INEEE: Wait for a single character from the terminal and store it in the `A` accumulator.
+|E809| PDATA1: Print data at the location stored in the `X` register and loop until $04 is reached.
+|E80C| OUTHR: Output HEX right BCD digit.
+|E80F| OUTHL: Output HEX left BCD digit.
+|E812| OUT2HS: Output 2 HEX digits.
 
 
 ### Example program

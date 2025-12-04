@@ -17,13 +17,13 @@ DDRB    EQU   $E483
 *       OPT    MEMORY
         ORG    $E800
         
-        JMP    START     E000
-        JMP    OUTEEE    E003
-        JMP    INEEE     E006
-        JMP    PDATA1    E009
-        JMP    OUTHR     E00C
-        JMP    OUTHL     E00F
-        JMP    OUT2HS    E012
+        JMP    START     E800
+        JMP    OUTEEE    E803
+        JMP    INEEE     E806
+        JMP    PDATA1    E809
+        JMP    OUTHR     E80C
+        JMP    OUTHL     E80F
+        JMP    OUT2HS    E812
 
 
 LOAD    EQU    *
