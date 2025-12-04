@@ -1,6 +1,6 @@
 #  MIKBUG
 ## for the Intext XK-300 CPU trainer
-This ROM should be installed in the user ROM socket U13 and will give you a 300baud UART interace that you can use with a FTDI adapter or a MAX232 module with a real serial terminal.
+This ROM should be installed in the user ROM socket U13 and will give you a 300 baud UART interface that you can use with a FTDI adapter or a MAX232 module with a real serial terminal.
 
 ### Prerequisites 
 * 2K ROM (2716) User ROM
